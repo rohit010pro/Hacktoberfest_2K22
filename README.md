@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://hacktoberfest.com">
-        <img src="https://pbs.twimg.com/card_img/1578125703404433408/NY8_MUvz?format=jpg&name=small" width="100%">
+        <img src="https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png" width="100%">
     </a>
 </p>
 
