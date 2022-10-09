@@ -1,5 +1,11 @@
 <h1 align="center"> <img src= "https://octodex.github.com/images/original.png" width= "40" /> HacktoberFest 2022 <img src= "https://octodex.github.com/images/original.png" width= "40" /> </h1>
 
+<p align="center">
+    <a href="https://hacktoberfest.com">
+        <img src="https://pbs.twimg.com/card_img/1578125703404433408/NY8_MUvz?format=jpg&name=small" width="100%">
+    </a>
+</p>
+
 # Hacktoberfest
 
 Hacktoberfest is digitaloceans annual event that encourages people to contribute to open source throughout october. Much of modern tech infrastructureincluding some of digitaloceans own productsrelies on open-source projects built and maintained by passionate people who often dont have the staff or budgets to do much more than keep the project alive. Hacktoberfest is all about giving back to those projects, sharpening skills, and celebrating all things open source, especially the people that make open source so special.
