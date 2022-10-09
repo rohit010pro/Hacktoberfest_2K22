@@ -2,9 +2,9 @@
 
 # Hacktoberfest
 
-HACKTOBERFEST IS DIGITALOCEAN’S ANNUAL EVENT THAT ENCOURAGES PEOPLE TO CONTRIBUTE TO OPEN SOURCE THROUGHOUT OCTOBER. MUCH OF MODERN TECH INFRASTRUCTURE—INCLUDING SOME OF DIGITALOCEAN’S OWN PRODUCTS—RELIES ON OPEN-SOURCE PROJECTS BUILT AND MAINTAINED BY PASSIONATE PEOPLE WHO OFTEN DON’T HAVE THE STAFF OR BUDGETS TO DO MUCH MORE THAN KEEP THE PROJECT ALIVE. HACKTOBERFEST IS ALL ABOUT GIVING BACK TO THOSE PROJECTS, SHARPENING SKILLS, AND CELEBRATING ALL THINGS OPEN SOURCE, ESPECIALLY THE PEOPLE THAT MAKE OPEN SOURCE SO SPECIAL.
+Hacktoberfest is digitaloceans annual event that encourages people to contribute to open source throughout october. Much of modern tech infrastructureincluding some of digitaloceans own productsrelies on open-source projects built and maintained by passionate people who often dont have the staff or budgets to do much more than keep the project alive. Hacktoberfest is all about giving back to those projects, sharpening skills, and celebrating all things open source, especially the people that make open source so special.
 
-FOR THE PAST 9 YEARS, THOUSANDS OF PEOPLE—CODERS AND NON-CODERS ALIKE—HAVE PARTICIPATED IN HACKTOBERFEST TO SUPPORT THE PROJECTS THEY USE AND LOVE, LEARN AND PRACTICE SKILLS THAT WILL ENHANCE THEIR CAREERS, AND MEET NEW PEOPLE WHO LOVE OPEN SOURCE AS MUCH AS THEY DO.
+For the past 9 years, thousands of peoplecoders and non-coders alikehave participated in hacktoberfest to support the projects they use and love, learn and practice skills that will enhance their careers, and meet new people who love open source as much as they do.
 
 # Rules
 
