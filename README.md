@@ -20,3 +20,33 @@
 Hacktoberfest is digitaloceans annual event that encourages people to contribute to open source throughout october. Much of modern tech infrastructureincluding some of digitaloceans own productsrelies on open-source projects built and maintained by passionate people who often dont have the staff or budgets to do much more than keep the project alive. Hacktoberfest is all about giving back to those projects, sharpening skills, and celebrating all things open source, especially the people that make open source so special.
 
 For the past 9 years, thousands of peoplecoders and non-coders alikehave participated in hacktoberfest to support the projects they use and love, learn and practice skills that will enhance their careers, and meet new people who love open source as much as they do.
+
+<h2>If you wish to contribute, we highly recommend following the guidelines mentioned below.</h2>
+
+1.Fork this repository.
+
+2.Clone your forked copy of the project.
+
+git clone https://github.com/your_username/CodeIN-Community-Website.git
+
+3.Navigate to the project directory.
+
+cd CodeIN-Community-Website
+
+4.Create a new branch:
+
+git checkout -b YourBranchName
+
+5.Make changes in source code.
+
+6.Stage your changes and commit
+
+git add . git commit -m "<your_commit_message>"
+
+7.Push your local commits to the remote repo.
+
+git push origin YourBranchName
+
+8.Create a PR
+
+#Happy Coding
