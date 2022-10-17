@@ -1,0 +1,135 @@
+/*This code is for viewing the calender of any year entered by the user.
+Contributed by Rishi*/
+#include<iostream>
+using namespace std;
+void month(int x)
+{
+    //Function to display the months of the entered year
+if(x==1)
+    cout<<"January ";
+else if(x==2)
+    cout<<"February ";
+else if(x==3)
+    cout<<"March ";
+else if(x==4)
+    cout<<"April ";
+else if(x==5)
+    cout<<"May ";
+else if(x==6)
+    cout<<"June ";
+else if(x==7)
+    cout<<"July ";
+else if(x==8)
+    cout<<"August ";
+else if(x==9)
+    cout<<"September ";
+else if(x==10)
+    cout<<"October ";
+else if(x==11)
+    cout<<"November ";
+else if(x==12)
+    cout<<"December ";
+}
+int checkLeap(int y)
+{
+    //Function to check leap year
+    return (y%4==0)?((y%100==0)?((y%400==0)?(1):0):1):0;
+}
+int getFirstDay(int y)
+{
+    //Function to retrieve the first day of the year
+        int x=6;
+        for(int i=1600;i<y;i++)
+        {
+            if(checkLeap(i))x+=2;
+            else x+=1;
+            x=x>7?x-7:x;
+        }
+        return x;
+}
+int printCal(int x,int m,int leap,int y)
+{
+        //Will to return the monthS to function 
+        cout<<"\t\t\t\t\t ";
+        month(m);
+        cout<<"%d\t\t\t\t\t"<<y;
+        printf("\n");
+        if(m==1||m==3||m==5||m==7||m==8||m==10||m==12)
+        {
+            m=31;
+        }
+        else
+        {
+            m=(m==2&&leap)?29:(m==2?28:30);
+        }
+        // Will print the days of the week
+        cout<<"\tMON\tTUE\tWED\tTHU\tFRI\tSAT\tSUN"<<endl;
+        int a=1;
+        for(int i=0;i<=6;i++)
+        {
+            for(int j=1;j<=7;j++)
+            {
+                if(i!=0||i==0&&j>=x)
+                {
+                    cout<<"\t"<<a;
+                    a++;
+                }
+                else
+                {
+                    cout<<"\t";
+                }
+                if(a==(m+1))
+                {
+                    a=j;
+                    goto stop;
+                }
+            }
+            cout<<endl;
+        }
+        stop:cout<<"";
+        cout<<"\n\n\t\t***\t\n\n";
+        return a+1;
+
+
+    }
+    void printCalendar(int y)
+    {
+        //Function to print calender
+        int a=getFirstDay(y);
+        for(int i=1;i<=12;i++)
+        {
+            a=printCal(a,i,checkLeap(y),y);
+        }
+    }
+    void calling()
+    {
+    int t=1;
+        do
+        {
+            int y;
+            cout<<"Enter a year"<<endl;
+            cin>>y;
+            int c1=1;
+
+            if(y>=1600&&y<=3000)
+            {
+                printCalendar(y);
+                c1++;
+            }
+            else
+            {
+                cout<<"Enter a valid year"<<endl;
+            }
+            cout<<"Enter 1 to see calendar of  another year"<<endl;
+            cin>>t;
+
+        }while(t==1);
+        if(t!=1)
+            {
+                cout<<"Hey thank you for seeing the calender"<<endl;
+            }
+    }
+    int main()
+    {
+        calling();
+    }
